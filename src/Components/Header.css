@@ -1,0 +1,105 @@
+span{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.Header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(111, 98, 124);
+    top: 0;
+    z-index: 100;
+    padding: 10px;
+}
+.Header_logo{
+    width: 98px;
+    height: 30px;
+    margin: 18px;
+}
+.Header_locator{
+   display: flex;
+}
+.Header_locatorimg img{
+    width: 30px;
+    height: 30px;   
+    padding-left: 10px;
+}
+.Header_location{
+    color: white;
+    font-weight: bold;
+}
+.All select{
+    width: 60px;
+    height: 44px;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+.Header_buttom{
+    background-color: rgb(77, 72, 65);
+}
+.Header_buttom ul{
+    height: 20px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 5px 30px 10px 30px;
+    align-items: center;   
+}
+.Header_buttom ul li{
+    padding: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+}
+.Header_search{
+    margin:20px;
+    align-items: center;
+    display: flex;
+}
+.Header_search input{
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: 0;
+}
+ .Header_SearchIcon{
+    padding: 8px;
+    height: 15px;
+    background-color: #cd9042;
+}
+.Header_nav{
+    display: flex;
+    
+    margin:0 0 0 200px;
+    padding: 30px;
+}
+.Header_option{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.Header_optionone{
+    font-size: 10px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.Header_optiontwo{
+    display:block;
+    
+    font-size: 14px;
+    font-weight: 800;
+    
+}
+.Header_basket{
+    display: flex;
+    color: antiquewhite;
+}
+.Header_basket a{
+    color: white;
+    text-decoration: none;
+}
+
+
